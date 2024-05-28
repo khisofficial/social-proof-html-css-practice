@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+}
+.bigdiv{
+    background-color: white;
+    background-image: url('bg-pattern-top-desktop.svg'), url('bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat no-repeat;
+    background-position: -30px -40px, 100px 80px;
+    /* background-size: cover; */
+    height: 650px;
+    margin: 0 100px 0 100px;
+}
+.upperbody{
+    display: flex;
+}
+
+.bodyleft{
+    padding: 60px 0px 60px 60px;
+    margin-left: 70px;
+    font-family: League Spartan;
+    color: hsl(300, 43%, 22%);
+}
+.bodyright{
+    padding: 30px 75px;
+    margin: 80px 50px 0px 0px;
+}
+.icon{
+    max-width: 15px;
+    max-height: 15px;
+}
+.review{
+    display: flex;
+}
+h1{
+    font-weight: bolder;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.paragraph{
+    font-weight: 550;
+    line-height: 15px;
+    font-size: 15px;
+    color: hsla(300, 32%, 44%, 0.89);
+}    
+.rate1, .rate2, .rate3{
+    background-color:  rgba(231, 217, 231, 0.63);
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-family: League Spartan;
+    font-weight: 700;
+    font-size: small;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.rate1{
+    margin-right: 65px;
+    margin-left: -5px;
+}
+.rate2{
+    margin-right: 35px;
+    margin-left: 25px;
+    margin-top: 14px;
+}
+.rate3{
+    margin-top: 14px;
+    margin-right: 5px;
+    margin-left: 60px;
+}
+
+.stars {
+    display: flex;
+}
+.box{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: League Spartan;
+}
+.box1, .box2, .box3{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 4%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box1{
+    position: relative;
+    top: 8px;
+    right: 20px;
+     
+}
+.box2{
+    position: relative;
+    top: 20px;
+    
+}
+.box3{
+    position: relative;
+    top: 32px;
+    left: 20px;
+    
+}
+p{
+    padding: 0px 20px 10px 20px;
+    font-weight: 400;
+    font-size: small;
+    line-height: 15px;
+}
+.client{
+    display: flex;
+    padding: 20px 20px 5px 20px;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.name{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.name>span {
+    display: block;
+}
+
+.verified{
+    margin-top: 5px;
+    display: block;
+    color: magenta;
+    font-weight: 400;
+    font-size: small;
+}
